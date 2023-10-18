@@ -20,6 +20,11 @@ header, footer {
     padding-top: 5px;
 }
 
+.list li {
+    width: fit-content;
+    margin: auto;
+}
+    
 .main-container, img {
     width: 450px;
 }
