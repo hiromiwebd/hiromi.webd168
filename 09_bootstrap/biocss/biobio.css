@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat&family=Oswald&display=swap");
+html body {
+  background-color: rgba(149, 125, 225, 0.8);
+}
+
+.bg {
+  background-color: rgba(250, 225, 67, 0.8);
+  padding: 1em 1em;
+  border-radius: 50px;
+  border: groove 5px #fff;
+}
+.bg h3 {
+  text-decoration: underline;
+  padding: 1em 1em;
+}
+@media screen and (max-width: 768px) {
+  .bg {
+    border-radius: 0 0 30% 30%;
+    width: 350x;
+    height: auto;
+    border-top: none;
+    padding-bottom: 1em;
+  }
+}
+@media screen and (max-width: 576px) {
+  .bg {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 0 0 10% 10%;
+    border-top: none;
+  }
+}
+
+img {
+  border-radius: 50px;
+  border: groove 5px #fff;
+}
+@media screen and (min-width: 768px) {
+  img {
+    margin-bottom: 1em;
+    border: groove 5px #fff;
+  }
+}
+@media screen and (max-width: 768px) {
+  img {
+    border-radius: 30% 30% 0 0;
+    width: 350px;
+    height: auto;
+    border-bottom: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  img {
+    border-radius: 10% 10% 0 0;
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+}/*# sourceMappingURL=biobio.css.map */

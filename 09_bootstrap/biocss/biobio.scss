@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat&family=Oswald&display=swap');
+$colors: (
+    primary: rgba(149, 125, 225, 0.8),
+    accent: rgba(250, 225, 67, 0.8)
+);
+
+// $tablet: 800px;
+
+// @mixin tablet {
+//     @media (min-width: #{$tablet}) {
+//         @content;
+//     }
+// }
+
+// @function function-name($args) {
+//     @return value-to-be-returned;
+// }
+
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}
+
+html body {
+    background-color: color(primary);
+}
+
+.bg {
+    background-color: color(accent);
+    // border-radius: 50px 3px;
+    padding: 1em 1em;
+    border-radius: 50px;
+    border: groove 5px #fff;
+
+    h3 {
+        text-decoration: underline;
+        padding: 1em 1em;
+    }
+
+    @media screen and (min-width: 768px) {
+        // border: groove 5px #fff;
+    }
+
+    @media screen and (max-width: 768px) {
+        border-radius: 0 0 30% 30%;
+        width: 350x;
+        height: auto;
+        border-top: none;
+        padding-bottom: 1em;
+  }
+    @media screen and (max-width: 576px) {
+        width: 250px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 0 0 10% 10%;
+        border-top: none;
+
+    }
+}
+
+
+img {
+    border-radius: 50px;
+    border: groove 5px #fff;
+
+    @media screen and (min-width: 768px) {
+    margin-bottom: 1em;
+    border: groove 5px #fff;
+    }
+    // border: ridge #fff;
+
+    @media screen and (max-width: 768px) {
+        border-radius: 30% 30% 0 0;
+        width: 350px;
+        height: auto;
+        border-bottom: none;
+    }
+
+    @media screen and (max-width: 576px) {
+        border-radius: 10% 10% 0 0;
+        width: 250px;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 0;
+        border-bottom: none;
+  }
+
+}
+
+
+ 
