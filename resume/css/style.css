@@ -12,6 +12,7 @@ body {
   border-radius: 5px;
   font-size: 18px;
   box-shadow: 26px 18px 29px -5px #777777;
+  width: 800px;
 }
 
 .prof-container img {
