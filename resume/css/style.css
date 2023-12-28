@@ -40,7 +40,6 @@ body {
 .profile {
   display: flex;
   padding-bottom: 0;
-  width: 800px;
 }
 
 .dob::before {
